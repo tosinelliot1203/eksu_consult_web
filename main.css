@@ -1,0 +1,42 @@
+.scrollingText {
+  color: #a731149d;
+  font-family: "Poppins";
+  font-weight: bolder;
+  font-size: 15px;
+}
+
+/* Typewriter text animation */
+
+.typewriter {
+  display: inline-block;
+  overflow: hidden;
+  border-right: 0.15em solid #115663;
+  white-space: nowrap;
+  margin: 0;
+  font-size: 15x;
+  color: #1f4158;
+  font-family:'Poppins', sans-serif;;
+  animation: typing 3s steps(40, end), blink-caret 0.75s step-end infinite;
+  text-transform: uppercase;
+  font-weight: bolder;
+  
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 200%;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #1c394e;
+  }
+}
